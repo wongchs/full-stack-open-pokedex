@@ -14,8 +14,7 @@ jobs:
           echo "Hello World!"
       
       - name: Print Date
-        run: |
-          echo date
+        run: date
       
       - name: List files
         run: |
